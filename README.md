@@ -4,7 +4,7 @@ This repository is part of my coursework at [WBS Coding School](https://www.wbsc
 
 ## Project Overview
 
-In this project, the primary focus is on querying a large-scale database to retrieve specific information efficiently. The dataset in question is too large to be included directly in this repository, so I have provided the database schema and the SQL queries used for data extraction and analysis.
+In this project, the primary focus is on querying a large-scale database to retrieve specific information and answer key business questions efficiently. The dataset in question is too large to be included directly in this repository, so I have provided the database schema and the SQL queries used for data extraction and analysis.
 
 All queries were developed and tested using **MySQL Workbench**, a powerful tool for managing MySQL databases. MySQL Workbench provided an intuitive interface for designing the queries and visualizing the database schema.
 
