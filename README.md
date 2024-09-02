@@ -34,12 +34,13 @@ To work with this project, you should have the following:
 
 ## Learning Outcomes
 
-Through this project, I aim to demonstrate:
+This project aims to demonstrate the following:
 
-- Proficiency in writing complex SQL queries.
-- Understanding of database schemas and relationships.
-- Ability to work with large datasets efficiently.
-- Application of SQL in real-world data analysis scenarios.
+- **Advanced SQL Querying**: Proficiency in writing and optimizing complex SQL queries to extract relevant data from large datasets.
+- **Database Schema Understanding**: A strong grasp of database design, including relationships, data types, and normalization, as reflected in the provided schema.
+- **Efficient Data Handling**: The ability to work with and analyze large datasets effectively, focusing on performance and accuracy.
+- **Real-World Application**: Practical application of SQL skills to solve business problems and derive actionable insights from data.
+
 
 ## Contributing
 
