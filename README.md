@@ -1,46 +1,67 @@
-# SQL Query for Large Database Analysis
+# SQL Query Project: Business Expansion Analysis
 
-This repository is part of my coursework at [WBS Coding School](https://www.wbscodingschool.com/). The project involves crafting and executing SQL queries to extract meaningful insights from a large database. Due to the substantial size of the database, I am sharing the database schema along with the SQL query used for analysis, rather than the full dataset.
+This repository is part of my coursework at [WBS Coding School](https://www.wbscodingschool.com/). The project focuses on analyzing data to support a business decision regarding the expansion of a fictitious e-commerce company, **Eniac**, into the Brazilian market.
 
 ## Project Overview
 
-In this project, the primary focus is on querying a large-scale database to retrieve specific information and answer key business questions efficiently. The dataset in question is too large to be included directly in this repository, so I have provided the database schema and the SQL queries used for data extraction and analysis.
+This project explores the potential expansion of **Eniac**, a fictional e-commerce company, into the Brazilian market, using data provided by **Magist**, another fictitious Brazilian e-commerce company. The analysis aimed to determine whether **Magist**'s operations align with **Eniac**'s standards and to assess the viability of entering the Brazilian market.
 
-All queries were developed and tested using **MySQL Workbench**, a powerful tool for managing MySQL databases. MySQL Workbench provided an intuitive interface for designing the queries and visualizing the database schema.
+The analysis involved developing and running SQL queries to extract and analyze data relevant to the Brazilian market. These queries were designed to provide insights into various aspects of the market, such as customer behavior, sales trends, and competitive landscape.
+
+All queries were developed and tested using **MySQL Workbench**, a versatile tool that facilitated the design of the queries and visualization of the database schema.
+
+## Objectives
+
+The main objectives of this project were to:
+
+1. **Evaluate Customer Satisfaction**: Analyze customer reviews to gauge the reputation and service quality of **Magist**.
+2. **Assess High-End Order Handling**: Examine **Magist**’s capability in managing high-end orders, particularly those over €500.
+3. **Investigate Delivery Performance**: Review the timeliness of deliveries, focusing on delayed shipments and their impact on customer satisfaction.
+
+## Key Findings
+
+- **Customer Reviews**: Analysis of customer feedback revealed significant concerns regarding **Magist**'s ability to meet **Eniac**'s high standards, particularly in areas such as delivery delays and product handling.
+- **High-End Orders**: A substantial portion of orders over €500 were identified, with **Magist** struggling to maintain the premium standards expected for such transactions.
+- **Delayed Deliveries**: An alarming 76% of deliveries were delayed, highlighting a critical weakness in **Magist**'s logistics operations.
+
+## Alternatives in Brazil
+
+Given the challenges identified with **Magist**, the following alternative logistics providers in Brazil were considered:
+
+- **SEDEX**: Known for fast and reliable delivery across Brazil, making it a strong candidate for handling express shipments.
+- **Jadlog**: Offers reliable express shipping services, particularly well-regarded for safely handling electronics.
+- **Loggi**: A technology-driven logistics provider with capabilities for same-day deliveries, especially suited for high-end tech products.
+
+## Conclusion
+
+The analysis concluded that **Magist** does not meet the operational standards required by **Eniac** for a successful market entry into Brazil. The recommendation is to explore alternative logistics providers to better support **Eniac**'s potential expansion into the Brazilian market.
 
 ## Repository Contents
 
-- **Database Schema**: The schema file (`schema.sql`) outlines the structure of the database, including the tables, columns, and relationships.
-- **SQL Query**: The SQL script (`query.sql`) contains the query designed to retrieve the necessary data from the database.
+- **Database Schema**: The schema file (`schema.sql`) outlines the structure of the database provided by **Magist**, including the tables, columns, and relationships.
+- **SQL Query**: The SQL script (`query.sql`) contains the queries used to extract and analyze data relevant to the business expansion proposal.
 
 ## How to Use
 
 1. **Review the Database Schema**:
-   - The schema provides a detailed overview of the database structure. It is crucial to understand the relationships and the data types involved before running any queries.
+   - The schema provides a detailed overview of the database structure. Understanding the relationships and data types is crucial before running any queries.
 
 2. **Run the SQL Query**:
-   - Use the provided `query.sql` file to execute the query against the database. This query is optimized for the specific structure of the provided schema.
+   - Use the provided `query.sql` file to execute the queries against the database. These queries are tailored to answer specific business questions related to the expansion into the Brazilian market.
 
 3. **Analyze the Results**:
-   - Once the query is executed, you can analyze the retrieved data for insights. Depending on the size of your dataset, you may need to further refine the query or break down the analysis into smaller parts.
-
-## Prerequisites
-
-To work with this project, you should have the following:
-
-- **SQL Server**: A working SQL server where you can load the schema and run the query.
-- **MySQL Workbench**: The queries in this project were developed and tested using MySQL Workbench, so having this tool will help you replicate the results and modify the queries if needed.
-- **Basic SQL Knowledge**: Familiarity with SQL syntax and database management to modify and execute the provided scripts.
+   - Once the queries are executed, analyze the retrieved data to draw conclusions regarding the feasibility of the business expansion. The insights gathered will be critical in making an informed decision.
 
 ## Learning Outcomes
 
 This project aims to demonstrate the following:
 
-- **Advanced SQL Querying**: Proficiency in writing and optimizing complex SQL queries to extract relevant data from large datasets.
-- **Database Schema Understanding**: A strong grasp of database design, including relationships, data types, and normalization, as reflected in the provided schema.
-- **Efficient Data Handling**: The ability to work with and analyze large datasets effectively, focusing on performance and accuracy.
-- **Real-World Application**: Practical application of SQL skills to solve business problems and derive actionable insights from data.
+- **Advanced SQL Querying**: Expertise in crafting and optimizing SQL queries to extract valuable insights from large datasets.
+- **Business Analysis**: Application of SQL to address real-world business questions, helping to inform strategic decisions.
+- **Collaborative Problem-Solving**: Working in a group of four, we collaborated effectively to analyze data and present our findings to the CEO.
+- **Presentation Skills**: Summarizing complex data insights and presenting them in a clear and concise manner to support or challenge business proposals.
 
+Through this project, I developed a deeper understanding of how data-driven decisions are made in a business context, particularly in the realm of market expansion.
 
 ## Contributing
 
@@ -49,4 +70,3 @@ Contributions are welcome! If you have suggestions for improvements or find any 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
