@@ -34,6 +34,7 @@ The analysis concluded that **Magist** does not meet the operational standards r
 
 - **Database Schema**: The schema file (`schema_database.pdf`) outlines the structure of the database provided by **Magist**, including the tables, columns, and relationships.
 - **SQL Query**: The SQL script (`business_question_n_answer.sql`) contains the queries used to extract and analyze data relevant to the business expansion proposal.
+- **Presentation Slides**: The findings and supportive arguments presented to the CEO of the fictitious company, **Eniac**.
 
 ## How to Use
 
