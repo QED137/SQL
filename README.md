@@ -24,13 +24,7 @@ The main objectives of this project were to:
 - **High-End Orders**: A substantial portion of orders over €500 were identified, with **Magist** struggling to maintain the premium standards expected for such transactions.
 - **Delayed Deliveries**: An alarming 76% of deliveries were delayed, highlighting a critical weakness in **Magist**'s logistics operations.
 
-## Alternatives in Brazil
 
-Given the challenges identified with **Magist**, the following alternative logistics providers in Brazil were considered:
-
-- **SEDEX**: Known for fast and reliable delivery across Brazil, making it a strong candidate for handling express shipments.
-- **Jadlog**: Offers reliable express shipping services, particularly well-regarded for safely handling electronics.
-- **Loggi**: A technology-driven logistics provider with capabilities for same-day deliveries, especially suited for high-end tech products.
 
 ## Conclusion
 
@@ -38,8 +32,8 @@ The analysis concluded that **Magist** does not meet the operational standards r
 
 ## Repository Contents
 
-- **Database Schema**: The schema file (`schema.sql`) outlines the structure of the database provided by **Magist**, including the tables, columns, and relationships.
-- **SQL Query**: The SQL script (`query.sql`) contains the queries used to extract and analyze data relevant to the business expansion proposal.
+- **Database Schema**: The schema file (`schema_database.pdf`) outlines the structure of the database provided by **Magist**, including the tables, columns, and relationships.
+- **SQL Query**: The SQL script (`business_question_n_answer.sql`) contains the queries used to extract and analyze data relevant to the business expansion proposal.
 
 ## How to Use
 
